@@ -1,0 +1,18 @@
+<mat-grid-list [cols]="columnas" [rowHeight]="largo" gutterSize="10px">
+  <mat-grid-tile *ngFor="let tile of tiles">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>My Card</mat-card-title>
+      </mat-card-header>
+      <img zoom src="https://material.angular.io/assets/img/examples/shiba2.jpg" width="100%"
+        alt="Photo of a Shiba Inu">
+      <mat-card-content>
+        {{tile.text}}
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button>LIKE</button>
+        <button mat-raised-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>
