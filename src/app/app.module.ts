@@ -8,7 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
 import {LayoutModule} from '@angular/cdk/layout';
-import { GrandeDirective } from './grande.directive';
+import { ZoomDirective } from './zoom.directive';
 import {MatButtonModule} from '@angular/material/button';
 
 
@@ -16,7 +16,7 @@ import {MatButtonModule} from '@angular/material/button';
 @NgModule({
   declarations: [
     AppComponent,
-    GrandeDirective
+    ZoomDirective
   ],
   imports: [
     BrowserModule,

@@ -3,7 +3,7 @@ import { Directive, ElementRef, HostListener, Renderer2 } from '@angular/core';
 @Directive({
   selector: '[zoom]'
 })
-export class GrandeDirective {
+export class ZoomDirective {
 
   constructor(private elRef: ElementRef, private renderer: Renderer2) { }
   @HostListener('mouseover') 
